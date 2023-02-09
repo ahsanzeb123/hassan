@@ -1,0 +1,115 @@
+body{
+    font-family: 'Kanit', sans-serif;
+   width: 100%; 
+   margin: auto;
+   background:url("https://media.istockphoto.com/id/1226478932/photo/round-podium-or-pedestal-with-blue-background.jpg?b=1&s=170667a&w=0&k=20&c=AkUOd2vv2ce1SGV5Sf3hG0OzYFgWLmKXT8SrnXIxea8=");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 840px;
+ }
+ .left {
+display: inline-block;
+
+position: absolute;
+left: 30px;
+top: 18px;
+
+
+}
+.left img{
+width: 100px;
+}
+.left div{
+text-align: center;
+font-weight: bold;
+color: white;
+}
+
+.centre {
+
+display: block;
+width: 36%;
+margin: 18px auto;
+}
+
+.right {
+display: inline-block;
+position: absolute;
+right: 30px;
+top: 18px;
+
+}
+.navbar{
+display: inline-block;
+}
+.navbar li{
+display: inline-block;
+font-size: 20px;
+}
+.navbar li a{
+color: white;
+text-decoration: none;
+padding: 15px 15px;
+
+}
+.navbar li :active{
+color: grey;
+}
+.navbar li a:hover{
+text-decoration: underline;
+}
+.btn{
+font-family: 'Kanit', sans-serif;
+margin: 0px 10px;
+padding: 4px 15px;
+background-color: #41225e;
+color: white;
+border: 2px Solid grey;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.container{
+
+/* border: 2px solid black; */
+margin: 150px 55px;
+padding: 38px 18px;
+border-radius: 20px;
+width: 30%;
+}
+.form-group input{
+text-align: center;
+margin: 6px 72px;
+padding: 4px 4px;
+display: block;
+border: 2px solid black;
+width: 200px;
+font-size: larger;
+border-radius: 8px;
+background-color: lightgrey;
+font-family: 'Kanit', sans-serif;
+}
+h2 {
+margin: auto;
+color: #422a2a;
+}
+.btn1{
+font-family: 'Kanit', sans-serif;
+background-color: rgb(92, 90, 94);
+display: inline-block;
+border: 2px solid black;
+border-radius: 7px;
+margin: 8px 72px;
+cursor: pointer;
+width: 212px;
+padding: 4px;
+}
+
+
+.btn1:hover{
+background-color: brown;
+}
+.btn:hover{
+color: burlywood;
+border: 2px solid #422a2a;
+}
